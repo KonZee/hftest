@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --watch --hot --inline --host 0.0.0.0 --disable-host-check",
-    "build": "webpack -p",
+    "build": "webpack",
     "build:development": "webpack --debug "
   },
   "devDependencies": {
