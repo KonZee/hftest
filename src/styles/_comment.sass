@@ -1,0 +1,43 @@
+.comment
+  &:not(:last-child)
+    margin-bottom: 15px
+
+  &__body
+    color: $text-medium-color
+    margin-bottom: 3px
+    white-space: pre-line
+    overflow-wrap: break-word
+
+  &__footer
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    color: $text-light
+  &__avatar
+    width: 18px
+    height: 18px
+    border-radius: 50%
+    background: rgba(0, 0, 0, 0.05)
+    margin-right: 5px
+    display: flex
+    align-items: center
+    justify-content: center
+    fill: $text-light
+  &__user
+    font-size: 11px
+    font-weight: bold
+    text-transform: uppercase
+    line-height: 1
+  &__timestamp
+    font-size: 11px
+  &__dropdown
+    position: relative
+  &__arrow
+    width: 20px
+    height: 20px
+    padding: 5px
+    fill: $text-light
+    position: relative
+    cursor: pointer
+  &__svg
+    position: absolute

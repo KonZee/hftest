@@ -1,0 +1,37 @@
+.button
+  display: flex
+  align-items: center
+  height: 30px
+  padding: 0 15px
+  font-size: 11px
+  text-transform: uppercase
+  font-weight: bold
+  line-height: 1
+  cursor: pointer
+  border-radius: $border-radius
+  &:not(:last-child)
+    margin-right: 10px
+
+  &--brand
+    background: $primary-color
+    color: $white-color
+
+  &--active,
+  &.active
+    background: $secondary-color
+    color: $white-color
+
+  &--disabled,
+  &.disabled
+    background: $gray-color
+    color: $white-color
+    cursor: not-allowed
+
+  &--cancel
+    background: $white-color
+    color: $text-dark
+    border: solid 1px #cccccc
+
+  &--alert
+    background: $alert-color
+    color: $white-color
